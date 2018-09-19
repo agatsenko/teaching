@@ -1,0 +1,20 @@
+initialize npm project:
+  mkdir 02-simple-project
+  cd 02-simple-project
+  mkdir src
+  npm init
+
+install prompt-sync module
+  npm install prompt-sync
+
+add index.js to src dir
+
+add the following into package.json:
+{
+  ...
+  "scripts": {
+    ...,
+    "index": "node src/index.js"
+  }
+  ...
+}
