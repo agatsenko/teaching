@@ -72,6 +72,7 @@ for (let i = 0; i < array.length; ++i) {
 }
 console.log();
 
+// вывести на консоль все отрицательные четные элементы массива
 console.log('--------------------------------------');
 console.log('negative even numbers');
 console.log('--------------------------------------');
@@ -82,6 +83,7 @@ for (let i = 0; i < array.length; ++i) {
 }
 console.log();
 
+// вывести на консоль все отрицательные четные и положительные нечетные элементы массива
 console.log('--------------------------------------');
 console.log('negative even and positive odd numbers');
 console.log('--------------------------------------');
